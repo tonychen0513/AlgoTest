@@ -1,0 +1,855 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		AD05A6B21D73045D00525B67 /* BombEstimate.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD05A6B11D73045D00525B67 /* BombEstimate.cpp */; };
+		AD07AF6E1D7114F200FD32B3 /* SwipeNumBackToOrder.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD07AF6D1D7114F200FD32B3 /* SwipeNumBackToOrder.cpp */; };
+		AD09A16B1DE1A07D0011396A /* UFAppConnectFriends.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD09A16A1DE1A07D0011396A /* UFAppConnectFriends.cpp */; };
+		AD09A16D1DE1CCE40011396A /* UFAppFindSuccessor.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD09A16C1DE1CCE40011396A /* UFAppFindSuccessor.cpp */; };
+		AD1247CC1DE2A9E40065BE9A /* ShuffleLinkedlist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1247CB1DE2A9E40065BE9A /* ShuffleLinkedlist.cpp */; };
+		AD1247CE1DE2B9E20065BE9A /* NutsAndBoltsProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1247CD1DE2B9E20065BE9A /* NutsAndBoltsProblem.cpp */; };
+		AD1247D01DE2EC4A0065BE9A /* DecimalDominant.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1247CF1DE2EC4A0065BE9A /* DecimalDominant.cpp */; };
+		AD1247D21DE314EE0065BE9A /* FindTaxiCabNum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD1247D11DE314EE0065BE9A /* FindTaxiCabNum.cpp */; };
+		AD14BB4F1D7828020089C814 /* GridSearch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD14BB4E1D7828020089C814 /* GridSearch.cpp */; };
+		AD2033CC1DCD971E00505BDB /* TriominoProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2033CB1DCD971E00505BDB /* TriominoProblem.cpp */; };
+		AD2033CE1DCD9FD200505BDB /* ClosestPointInAPlane.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2033CD1DCD9FD200505BDB /* ClosestPointInAPlane.cpp */; };
+		AD2033D01DCDEC3900505BDB /* GetNumOfScoreCombineForGivenValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2033CF1DCDEC3900505BDB /* GetNumOfScoreCombineForGivenValue.cpp */; };
+		AD2800B11D8AAD02006D583A /* RandomTestCases.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD2800B01D8AAD02006D583A /* RandomTestCases.cpp */; };
+		AD300EEE1DDBED4400598B53 /* WebCrawlerTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD300EED1DDBED4400598B53 /* WebCrawlerTest.cpp */; };
+		AD30B3D11DBB23CA00A29DD8 /* RegexTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD30B3D01DBB23CA00A29DD8 /* RegexTest.cpp */; };
+		AD30B3D41DBB8D1900A29DD8 /* BitWiseTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD30B3D21DBB8D1900A29DD8 /* BitWiseTest.cpp */; };
+		AD3423661D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD3423651D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp */; };
+		AD350F5D1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD350F5C1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp */; };
+		AD3646A31D74584B00F52C6F /* FindCrossBlock.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD3646A21D74584B00F52C6F /* FindCrossBlock.cpp */; };
+		AD38221A1DC4C47E0079EEDE /* TypeAheadTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD3822191DC4C47E0079EEDE /* TypeAheadTest.cpp */; };
+		AD388F4A1D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD388F491D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp */; };
+		AD39B3741D75B33800607E81 /* AlmostSorted.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD39B3731D75B33800607E81 /* AlmostSorted.cpp */; };
+		AD3BA7D01D975E9E00A58B94 /* FindShortestPath.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD3BA7CF1D975E9E00A58B94 /* FindShortestPath.cpp */; };
+		AD4242271E740E29005903A9 /* InsertionSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD4242261E740E29005903A9 /* InsertionSort.cpp */; };
+		AD4CC2E41DBCD2950075496C /* ConsistentHashing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD4CC2E31DBCD2950075496C /* ConsistentHashing.cpp */; };
+		AD5A61F61D7C48140021CC8A /* RBTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5A61F41D7C48140021CC8A /* RBTree.cpp */; };
+		AD5B4F921D7EF8C900EF3D0C /* TrieTreeAndSerialization.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5B4F901D7EF8C900EF3D0C /* TrieTreeAndSerialization.cpp */; };
+		AD5F09BF1DDC607E00C49BE5 /* GoogleFrogJumping.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD5F09BE1DDC607E00C49BE5 /* GoogleFrogJumping.cpp */; };
+		AD63B8801E012D5500954810 /* SharePointerSkeleton.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD63B87F1E012D5500954810 /* SharePointerSkeleton.cpp */; };
+		AD6A91981DDE9AC50007A2CC /* MiniStackWithMinValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6A91971DDE9AC50007A2CC /* MiniStackWithMinValue.cpp */; };
+		AD6A919A1DDEC0FC0007A2CC /* MiniQueueByTwoStacks.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6A91991DDEC0FC0007A2CC /* MiniQueueByTwoStacks.cpp */; };
+		AD6A919C1DDF1FBC0007A2CC /* ReverseDigits.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6A919B1DDF1FBC0007A2CC /* ReverseDigits.cpp */; };
+		AD6A919E1DDF39400007A2CC /* DeepCopy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6A919D1DDF39400007A2CC /* DeepCopy.cpp */; };
+		AD6EAF631D67108E001D8ED5 /* QuickSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6EAF621D67108E001D8ED5 /* QuickSort.cpp */; };
+		AD6EAF651D6731DA001D8ED5 /* BinaryTreeSerializeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6EAF641D6731DA001D8ED5 /* BinaryTreeSerializeTest.cpp */; };
+		AD6EAF6A1D6733EC001D8ED5 /* BinaryTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD6EAF691D6733EC001D8ED5 /* BinaryTree.cpp */; };
+		AD715AD21E6DAEFF008598FC /* MultiGCD.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD715AD11E6DAEFF008598FC /* MultiGCD.cpp */; };
+		AD71D2B41DEEE5DF001B8C55 /* MockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD71D2B31DEEE5DF001B8C55 /* MockTest.cpp */; };
+		AD71D2B61DEFF8F4001B8C55 /* DBAccessMockTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD71D2B51DEFF8F4001B8C55 /* DBAccessMockTest.cpp */; };
+		AD768DD71E43F59E0043DF18 /* FindMaxXORBetweenNumbers.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD768DD61E43F59E0043DF18 /* FindMaxXORBetweenNumbers.cpp */; };
+		AD7810421D628F7100C1906A /* LRUCacheTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7810401D628F7100C1906A /* LRUCacheTest.cpp */; };
+		AD79741D1DED6753005EF351 /* FixtureTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD79741C1DED6753005EF351 /* FixtureTest.cpp */; };
+		AD79741F1DED6B42005EF351 /* ValueParameterizedTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD79741E1DED6B42005EF351 /* ValueParameterizedTest.cpp */; };
+		AD7B557A1DD6789B0088E1EC /* SimpleGoogFileSystem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7B55791DD6789B0088E1EC /* SimpleGoogFileSystem.cpp */; };
+		AD7BDAF01DA87AC500F4B862 /* KDTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7BDAEF1DA87AC500F4B862 /* KDTree.cpp */; };
+		AD7C22D21DE6CF7D00938769 /* StringShift.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD7C22D11DE6CF7D00938769 /* StringShift.cpp */; };
+		AD80F84A1D6004E400194C4E /* ReverseLinkedListTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD80F8491D6004E400194C4E /* ReverseLinkedListTest.cpp */; };
+		AD816ACC1D61F13F00B03CAC /* BoostUnorderedMapTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD816ACB1D61F13F00B03CAC /* BoostUnorderedMapTest.cpp */; };
+		AD8265671D78EF7700BBB0B0 /* AVLTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8265651D78EF7700BBB0B0 /* AVLTree.cpp */; };
+		AD82656A1D796EA800BBB0B0 /* BigInteger.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8265681D796EA800BBB0B0 /* BigInteger.cpp */; };
+		AD82656C1D7985E900BBB0B0 /* MergeKSortedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD82656B1D7985E900BBB0B0 /* MergeKSortedList.cpp */; };
+		AD82656E1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD82656D1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp */; };
+		AD82A7C21DE8626600F6AB9B /* PoorPigProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD82A7C11DE8626600F6AB9B /* PoorPigProblem.cpp */; };
+		AD8478FB1DA4683C00B28EC9 /* FindNumInBitnonicSequence.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8478FA1DA4683C00B28EC9 /* FindNumInBitnonicSequence.cpp */; };
+		AD8D00921D6892750045B651 /* TopNListTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D00911D6892750045B651 /* TopNListTest.cpp */; };
+		AD8D00941D6897680045B651 /* GraphDFS.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D00931D6897680045B651 /* GraphDFS.cpp */; };
+		AD8D7D241DFB765E00DC41D0 /* BinaryWatch.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D7D231DFB765E00DC41D0 /* BinaryWatch.cpp */; };
+		AD8D7D261DFB90C100DC41D0 /* MockSetArgumentTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D7D251DFB90C100DC41D0 /* MockSetArgumentTest.cpp */; };
+		AD8D7D281DFBD00E00DC41D0 /* MatchInterfaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D7D271DFBD00E00DC41D0 /* MatchInterfaceTest.cpp */; };
+		AD8D7D2A1DFC12EA00DC41D0 /* CardinalityInterfaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D7D291DFC12EA00DC41D0 /* CardinalityInterfaceTest.cpp */; };
+		AD8D7D2C1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD8D7D2B1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp */; };
+		AD9047831D8157DC00568006 /* BinaryIndexedTree.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9047811D8157DC00568006 /* BinaryIndexedTree.cpp */; };
+		AD91D9EC1DD6DC4100A9D680 /* SimpleMasterSlaveHeartBeat.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD91D9EB1DD6DC4100A9D680 /* SimpleMasterSlaveHeartBeat.cpp */; };
+		AD91D9EE1DD6E4FB00A9D680 /* tinyURL.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD91D9ED1DD6E4FB00A9D680 /* tinyURL.cpp */; };
+		AD91D9F01DD843C700A9D680 /* RateLimiter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD91D9EF1DD843C700A9D680 /* RateLimiter.cpp */; };
+		AD95D8EE1D63D63B00EF544C /* CompressDataInput.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD95D8ED1D63D63B00EF544C /* CompressDataInput.cpp */; };
+		AD95D8F01D647E1600EF544C /* HeapSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD95D8EF1D647E1600EF544C /* HeapSort.cpp */; };
+		AD9A04901D916CBC00974E6E /* FindNonRepetitiveLetter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9A048F1D916CBC00974E6E /* FindNonRepetitiveLetter.cpp */; };
+		AD9AE9961DE3B5C2008F240B /* BinaryTreeO1InOrderTraverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9AE9951DE3B5C2008F240B /* BinaryTreeO1InOrderTraverse.cpp */; };
+		AD9AE9981DE3D3F7008F240B /* QueueWithIthElement.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9AE9971DE3D3F7008F240B /* QueueWithIthElement.cpp */; };
+		AD9D695A1D7036F600F9DC7D /* FindNumberWithGivenProduct.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9D69591D7036F600F9DC7D /* FindNumberWithGivenProduct.cpp */; };
+		AD9DA0221D87F55800A19663 /* SmallUtilTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9DA0211D87F55800A19663 /* SmallUtilTest.cpp */; };
+		AD9DA1F21DBDB947009CA67A /* MemcachedTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9DA1F11DBDB947009CA67A /* MemcachedTest.cpp */; };
+		AD9F55911DDAE3F000614A4E /* AnagramTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = AD9F55901DDAE3F000614A4E /* AnagramTest.cpp */; };
+		ADA0B77B1DCFF1DC0058B72F /* SearchStringProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA0B77A1DCFF1DC0058B72F /* SearchStringProblem.cpp */; };
+		ADA0B77D1DD032FC0058B72F /* FindMaxSumSubArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA0B77C1DD032FC0058B72F /* FindMaxSumSubArray.cpp */; };
+		ADA0B77F1DD03B2F0058B72F /* IsStringRotated.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA0B77E1DD03B2F0058B72F /* IsStringRotated.cpp */; };
+		ADA0B7811DD04D660058B72F /* IsArbitrageInExchanges.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA0B7801DD04D660058B72F /* IsArbitrageInExchanges.cpp */; };
+		ADA2097C1D71A638001868C2 /* FindAbsolutePermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA2097B1D71A638001868C2 /* FindAbsolutePermutation.cpp */; };
+		ADA77AE91DCC71A000E302E6 /* MakeUpAndDownArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA77AE81DCC71A000E302E6 /* MakeUpAndDownArray.cpp */; };
+		ADA77AEB1DCC9FA900E302E6 /* PowerFunctionTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA77AEA1DCC9FA900E302E6 /* PowerFunctionTest.cpp */; };
+		ADA77AED1DCCA0A400E302E6 /* RomanNumberToDigit.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA77AEC1DCCA0A400E302E6 /* RomanNumberToDigit.cpp */; };
+		ADA77AEF1DCCAB6D00E302E6 /* FindMinSpanOverInstructment.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA77AEE1DCCAB6D00E302E6 /* FindMinSpanOverInstructment.cpp */; };
+		ADA77AF11DCCB38800E302E6 /* BinaryTreeCompareTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADA77AF01DCCB38800E302E6 /* BinaryTreeCompareTest.cpp */; };
+		ADB06B7C1D9E14900028C432 /* FindKSmallIn2SortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB06B7B1D9E14900028C432 /* FindKSmallIn2SortedArray.cpp */; };
+		ADB06B7E1D9E4C630028C432 /* DynamicMedian.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB06B7D1D9E4C630028C432 /* DynamicMedian.cpp */; };
+		ADB279061D6F1DE100158CCD /* WordsSorting.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB279051D6F1DE100158CCD /* WordsSorting.cpp */; };
+		ADB3E4181DDDAA06002D9816 /* GraphSnakeTraverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB3E4171DDDAA06002D9816 /* GraphSnakeTraverse.cpp */; };
+		ADB77EF61D68024E00C13987 /* BST.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB77EF41D68024E00C13987 /* BST.cpp */; };
+		ADB77EF81D6807F600C13987 /* BSTTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADB77EF71D6807F600C13987 /* BSTTest.cpp */; };
+		ADBB13CB1D60A0EC007BDC57 /* MultiThreadTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBB13CA1D60A0EC007BDC57 /* MultiThreadTest.cpp */; };
+		ADBE61021DC16846001BC100 /* GoogleDivisionToValue.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADBE61011DC16846001BC100 /* GoogleDivisionToValue.cpp */; };
+		ADC90FBC1DC0937000F79AC1 /* MiniCassandraTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADC90FBB1DC0937000F79AC1 /* MiniCassandraTest.cpp */; };
+		ADCC2EB21FCEDAE200965529 /* CheckCircularLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCC2EB11FCEDAE200965529 /* CheckCircularLinkedList.cpp */; };
+		ADCCCF161D8C00A100EBD63E /* PowerSet.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCCCF151D8C00A100EBD63E /* PowerSet.cpp */; };
+		ADCDFDFB1DCF4F24007F86CA /* OpenCloseDoorProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCDFDFA1DCF4F24007F86CA /* OpenCloseDoorProblem.cpp */; };
+		ADCDFDFD1DCF51A2007F86CA /* Get3LargestNumIn25BySort5.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCDFDFC1DCF51A2007F86CA /* Get3LargestNumIn25BySort5.cpp */; };
+		ADCEF0871D5F495E004623F2 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCEF0861D5F495E004623F2 /* main.cpp */; };
+		ADCEF0901D5F4EDB004623F2 /* libgmock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCEF08F1D5F4EDB004623F2 /* libgmock.a */; };
+		ADCEF0921D5F4EEC004623F2 /* libgtest.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADCEF0911D5F4EEC004623F2 /* libgtest.a */; };
+		ADCEF0971D5F56E0004623F2 /* HashTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADCEF0961D5F56E0004623F2 /* HashTest.cpp */; };
+		ADD369EC1D9662CC00F24B58 /* GreedyActivitySeletion.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD369EB1D9662CC00F24B58 /* GreedyActivitySeletion.cpp */; };
+		ADD3CD831DCAADA8005FBE33 /* GetStringAllPermutation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD3CD821DCAADA8005FBE33 /* GetStringAllPermutation.cpp */; };
+		ADD3CD851DCAB07F005FBE33 /* TestIfStringIsPalindromic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD3CD841DCAB07F005FBE33 /* TestIfStringIsPalindromic.cpp */; };
+		ADD3CD871DCB3A83005FBE33 /* GoogleRandomCoinGame.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD3CD861DCB3A83005FBE33 /* GoogleRandomCoinGame.cpp */; };
+		ADD8941B1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD8941A1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp */; };
+		ADD8941D1D939643000E2CE6 /* GraphDiagonalTraverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADD8941C1D939643000E2CE6 /* GraphDiagonalTraverse.cpp */; };
+		ADE36D9A1DC9CD4E00973C90 /* DiagonalTraverse.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE36D991DC9CD4E00973C90 /* DiagonalTraverse.cpp */; };
+		ADE36D9C1DC9E8EE00973C90 /* AddTwoLinkedList.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE36D9B1DC9E8EE00973C90 /* AddTwoLinkedList.cpp */; };
+		ADE36D9E1DCA0D4C00973C90 /* PrintBigX.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE36D9D1DCA0D4C00973C90 /* PrintBigX.cpp */; };
+		ADE5336C1DCC032200071400 /* CalendarRenderingProblem.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADE5336B1DCC032200071400 /* CalendarRenderingProblem.cpp */; };
+		ADEA392E1E5D29C30023D5D2 /* FibonacciTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADEA392D1E5D29C30023D5D2 /* FibonacciTest.cpp */; };
+		ADEA90C31D76D6B500302B1F /* SortByRotation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADEA90C21D76D6B500302B1F /* SortByRotation.cpp */; };
+		ADEB7D051D9D4DEC003BD06B /* FindKBigIn1UnsortedArray.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADEB7D041D9D4DEC003BD06B /* FindKBigIn1UnsortedArray.cpp */; };
+		ADED440E1E6E6C1400AE5CAD /* AlmostPalindrome.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADED440D1E6E6C1400AE5CAD /* AlmostPalindrome.cpp */; };
+		ADF058BD1DB1DC4500382210 /* MiniTweeter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF058BC1DB1DC4500382210 /* MiniTweeter.cpp */; };
+		ADF2D6DD1D65EC9500ED18D0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF2D6DC1D65EC9500ED18D0 /* MergeSort.cpp */; };
+		ADF3AC831DBF78BD008FB1F0 /* MicroConsistentHashing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF3AC821DBF78BD008FB1F0 /* MicroConsistentHashing.cpp */; };
+		ADF3C26C1DA3ACD900CC10CC /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C26B1DA3ACD900CC10CC /* ThreeSum.cpp */; };
+		ADF4F4B91D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF4F4B81D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp */; };
+		ADF53E4F1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */; };
+		ADF794F21D9556580078E59E /* GetPermulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF794F11D9556580078E59E /* GetPermulation.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		ADCEF0811D5F495E004623F2 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		AD05A6B11D73045D00525B67 /* BombEstimate.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BombEstimate.cpp; sourceTree = "<group>"; };
+		AD07AF6D1D7114F200FD32B3 /* SwipeNumBackToOrder.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SwipeNumBackToOrder.cpp; sourceTree = "<group>"; };
+		AD09A1681DE199080011396A /* WeightedQuickUnion.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = WeightedQuickUnion.hpp; sourceTree = "<group>"; };
+		AD09A16A1DE1A07D0011396A /* UFAppConnectFriends.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UFAppConnectFriends.cpp; sourceTree = "<group>"; };
+		AD09A16C1DE1CCE40011396A /* UFAppFindSuccessor.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = UFAppFindSuccessor.cpp; sourceTree = "<group>"; };
+		AD1247CB1DE2A9E40065BE9A /* ShuffleLinkedlist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ShuffleLinkedlist.cpp; sourceTree = "<group>"; };
+		AD1247CD1DE2B9E20065BE9A /* NutsAndBoltsProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = NutsAndBoltsProblem.cpp; sourceTree = "<group>"; };
+		AD1247CF1DE2EC4A0065BE9A /* DecimalDominant.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DecimalDominant.cpp; sourceTree = "<group>"; };
+		AD1247D11DE314EE0065BE9A /* FindTaxiCabNum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindTaxiCabNum.cpp; sourceTree = "<group>"; };
+		AD14BB4E1D7828020089C814 /* GridSearch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GridSearch.cpp; sourceTree = "<group>"; };
+		AD2033CB1DCD971E00505BDB /* TriominoProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TriominoProblem.cpp; sourceTree = "<group>"; };
+		AD2033CD1DCD9FD200505BDB /* ClosestPointInAPlane.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ClosestPointInAPlane.cpp; sourceTree = "<group>"; };
+		AD2033CF1DCDEC3900505BDB /* GetNumOfScoreCombineForGivenValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetNumOfScoreCombineForGivenValue.cpp; sourceTree = "<group>"; };
+		AD2800B01D8AAD02006D583A /* RandomTestCases.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RandomTestCases.cpp; sourceTree = "<group>"; };
+		AD300EED1DDBED4400598B53 /* WebCrawlerTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WebCrawlerTest.cpp; sourceTree = "<group>"; };
+		AD30B3D01DBB23CA00A29DD8 /* RegexTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RegexTest.cpp; sourceTree = "<group>"; };
+		AD30B3D21DBB8D1900A29DD8 /* BitWiseTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BitWiseTest.cpp; sourceTree = "<group>"; };
+		AD3423651D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMaxNumberOfBusInStop.cpp; sourceTree = "<group>"; };
+		AD350F5C1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DivideToTwoSubSetWithSameSum.cpp; sourceTree = "<group>"; };
+		AD3646A21D74584B00F52C6F /* FindCrossBlock.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindCrossBlock.cpp; sourceTree = "<group>"; };
+		AD3822191DC4C47E0079EEDE /* TypeAheadTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TypeAheadTest.cpp; sourceTree = "<group>"; };
+		AD388F491D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch_FairWorkLoad.cpp; sourceTree = "<group>"; };
+		AD39B3731D75B33800607E81 /* AlmostSorted.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlmostSorted.cpp; sourceTree = "<group>"; };
+		AD3BA7CF1D975E9E00A58B94 /* FindShortestPath.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindShortestPath.cpp; sourceTree = "<group>"; };
+		AD4242261E740E29005903A9 /* InsertionSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = InsertionSort.cpp; sourceTree = "<group>"; };
+		AD4CC2E31DBCD2950075496C /* ConsistentHashing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ConsistentHashing.cpp; sourceTree = "<group>"; };
+		AD5A61F41D7C48140021CC8A /* RBTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RBTree.cpp; sourceTree = "<group>"; };
+		AD5A61F51D7C48140021CC8A /* RBTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = RBTree.hpp; sourceTree = "<group>"; };
+		AD5B4F901D7EF8C900EF3D0C /* TrieTreeAndSerialization.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TrieTreeAndSerialization.cpp; sourceTree = "<group>"; };
+		AD5F09BE1DDC607E00C49BE5 /* GoogleFrogJumping.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleFrogJumping.cpp; sourceTree = "<group>"; };
+		AD63B87F1E012D5500954810 /* SharePointerSkeleton.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SharePointerSkeleton.cpp; sourceTree = "<group>"; };
+		AD6A91971DDE9AC50007A2CC /* MiniStackWithMinValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniStackWithMinValue.cpp; sourceTree = "<group>"; };
+		AD6A91991DDEC0FC0007A2CC /* MiniQueueByTwoStacks.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniQueueByTwoStacks.cpp; sourceTree = "<group>"; };
+		AD6A919B1DDF1FBC0007A2CC /* ReverseDigits.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseDigits.cpp; sourceTree = "<group>"; };
+		AD6A919D1DDF39400007A2CC /* DeepCopy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DeepCopy.cpp; sourceTree = "<group>"; };
+		AD6EAF621D67108E001D8ED5 /* QuickSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QuickSort.cpp; sourceTree = "<group>"; };
+		AD6EAF641D6731DA001D8ED5 /* BinaryTreeSerializeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeSerializeTest.cpp; sourceTree = "<group>"; };
+		AD6EAF681D673228001D8ED5 /* BinaryTree.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BinaryTree.h; sourceTree = "<group>"; };
+		AD6EAF691D6733EC001D8ED5 /* BinaryTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTree.cpp; sourceTree = "<group>"; };
+		AD715AD11E6DAEFF008598FC /* MultiGCD.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiGCD.cpp; sourceTree = "<group>"; };
+		AD71D2B31DEEE5DF001B8C55 /* MockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MockTest.cpp; sourceTree = "<group>"; };
+		AD71D2B51DEFF8F4001B8C55 /* DBAccessMockTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DBAccessMockTest.cpp; sourceTree = "<group>"; };
+		AD768DD61E43F59E0043DF18 /* FindMaxXORBetweenNumbers.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMaxXORBetweenNumbers.cpp; sourceTree = "<group>"; };
+		AD7810401D628F7100C1906A /* LRUCacheTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = LRUCacheTest.cpp; sourceTree = "<group>"; };
+		AD7810411D628F7100C1906A /* LRUCacheTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LRUCacheTest.h; sourceTree = "<group>"; };
+		AD79741C1DED6753005EF351 /* FixtureTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FixtureTest.cpp; sourceTree = "<group>"; };
+		AD79741E1DED6B42005EF351 /* ValueParameterizedTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ValueParameterizedTest.cpp; sourceTree = "<group>"; };
+		AD7B55791DD6789B0088E1EC /* SimpleGoogFileSystem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleGoogFileSystem.cpp; sourceTree = "<group>"; };
+		AD7BDAEF1DA87AC500F4B862 /* KDTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = KDTree.cpp; sourceTree = "<group>"; };
+		AD7C22D11DE6CF7D00938769 /* StringShift.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = StringShift.cpp; sourceTree = "<group>"; };
+		AD80F8491D6004E400194C4E /* ReverseLinkedListTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ReverseLinkedListTest.cpp; sourceTree = "<group>"; };
+		AD816ACB1D61F13F00B03CAC /* BoostUnorderedMapTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BoostUnorderedMapTest.cpp; sourceTree = "<group>"; };
+		AD8265651D78EF7700BBB0B0 /* AVLTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AVLTree.cpp; sourceTree = "<group>"; };
+		AD8265661D78EF7700BBB0B0 /* AVLTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AVLTree.hpp; sourceTree = "<group>"; };
+		AD8265681D796EA800BBB0B0 /* BigInteger.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BigInteger.cpp; sourceTree = "<group>"; };
+		AD8265691D796EA800BBB0B0 /* BigInteger.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BigInteger.hpp; sourceTree = "<group>"; };
+		AD82656B1D7985E900BBB0B0 /* MergeKSortedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeKSortedList.cpp; sourceTree = "<group>"; };
+		AD82656D1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CountSmallerNumAfterSelf.cpp; sourceTree = "<group>"; };
+		AD82A7C11DE8626600F6AB9B /* PoorPigProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PoorPigProblem.cpp; sourceTree = "<group>"; };
+		AD8478FA1DA4683C00B28EC9 /* FindNumInBitnonicSequence.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindNumInBitnonicSequence.cpp; sourceTree = "<group>"; };
+		AD8D00911D6892750045B651 /* TopNListTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TopNListTest.cpp; sourceTree = "<group>"; };
+		AD8D00931D6897680045B651 /* GraphDFS.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphDFS.cpp; sourceTree = "<group>"; };
+		AD8D7D231DFB765E00DC41D0 /* BinaryWatch.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryWatch.cpp; sourceTree = "<group>"; };
+		AD8D7D251DFB90C100DC41D0 /* MockSetArgumentTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MockSetArgumentTest.cpp; sourceTree = "<group>"; };
+		AD8D7D271DFBD00E00DC41D0 /* MatchInterfaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MatchInterfaceTest.cpp; sourceTree = "<group>"; };
+		AD8D7D291DFC12EA00DC41D0 /* CardinalityInterfaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CardinalityInterfaceTest.cpp; sourceTree = "<group>"; };
+		AD8D7D2B1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ActionInterfaceTest.cpp; sourceTree = "<group>"; };
+		AD9047811D8157DC00568006 /* BinaryIndexedTree.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryIndexedTree.cpp; sourceTree = "<group>"; };
+		AD9047821D8157DC00568006 /* BinaryIndexedTree.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BinaryIndexedTree.hpp; sourceTree = "<group>"; };
+		AD91D9EB1DD6DC4100A9D680 /* SimpleMasterSlaveHeartBeat.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SimpleMasterSlaveHeartBeat.cpp; sourceTree = "<group>"; };
+		AD91D9ED1DD6E4FB00A9D680 /* tinyURL.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = tinyURL.cpp; sourceTree = "<group>"; };
+		AD91D9EF1DD843C700A9D680 /* RateLimiter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RateLimiter.cpp; sourceTree = "<group>"; };
+		AD95D8ED1D63D63B00EF544C /* CompressDataInput.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CompressDataInput.cpp; sourceTree = "<group>"; };
+		AD95D8EF1D647E1600EF544C /* HeapSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HeapSort.cpp; sourceTree = "<group>"; };
+		AD9A048F1D916CBC00974E6E /* FindNonRepetitiveLetter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindNonRepetitiveLetter.cpp; sourceTree = "<group>"; };
+		AD9AE9951DE3B5C2008F240B /* BinaryTreeO1InOrderTraverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeO1InOrderTraverse.cpp; sourceTree = "<group>"; };
+		AD9AE9971DE3D3F7008F240B /* QueueWithIthElement.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = QueueWithIthElement.cpp; sourceTree = "<group>"; };
+		AD9D69591D7036F600F9DC7D /* FindNumberWithGivenProduct.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindNumberWithGivenProduct.cpp; sourceTree = "<group>"; };
+		AD9DA0211D87F55800A19663 /* SmallUtilTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SmallUtilTest.cpp; sourceTree = "<group>"; };
+		AD9DA1F11DBDB947009CA67A /* MemcachedTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MemcachedTest.cpp; sourceTree = "<group>"; };
+		AD9F55901DDAE3F000614A4E /* AnagramTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AnagramTest.cpp; sourceTree = "<group>"; };
+		ADA0B77A1DCFF1DC0058B72F /* SearchStringProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SearchStringProblem.cpp; sourceTree = "<group>"; };
+		ADA0B77C1DD032FC0058B72F /* FindMaxSumSubArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMaxSumSubArray.cpp; sourceTree = "<group>"; };
+		ADA0B77E1DD03B2F0058B72F /* IsStringRotated.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsStringRotated.cpp; sourceTree = "<group>"; };
+		ADA0B7801DD04D660058B72F /* IsArbitrageInExchanges.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = IsArbitrageInExchanges.cpp; sourceTree = "<group>"; };
+		ADA2097B1D71A638001868C2 /* FindAbsolutePermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindAbsolutePermutation.cpp; sourceTree = "<group>"; };
+		ADA77AE81DCC71A000E302E6 /* MakeUpAndDownArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MakeUpAndDownArray.cpp; sourceTree = "<group>"; };
+		ADA77AEA1DCC9FA900E302E6 /* PowerFunctionTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowerFunctionTest.cpp; sourceTree = "<group>"; };
+		ADA77AEC1DCCA0A400E302E6 /* RomanNumberToDigit.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = RomanNumberToDigit.cpp; sourceTree = "<group>"; };
+		ADA77AEE1DCCAB6D00E302E6 /* FindMinSpanOverInstructment.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMinSpanOverInstructment.cpp; sourceTree = "<group>"; };
+		ADA77AF01DCCB38800E302E6 /* BinaryTreeCompareTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinaryTreeCompareTest.cpp; sourceTree = "<group>"; };
+		ADB06B7B1D9E14900028C432 /* FindKSmallIn2SortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindKSmallIn2SortedArray.cpp; sourceTree = "<group>"; };
+		ADB06B7D1D9E4C630028C432 /* DynamicMedian.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DynamicMedian.cpp; sourceTree = "<group>"; };
+		ADB279051D6F1DE100158CCD /* WordsSorting.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = WordsSorting.cpp; sourceTree = "<group>"; };
+		ADB3E4171DDDAA06002D9816 /* GraphSnakeTraverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphSnakeTraverse.cpp; sourceTree = "<group>"; };
+		ADB77EF31D67E8ED00C13987 /* CommonStructure.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CommonStructure.h; sourceTree = "<group>"; };
+		ADB77EF41D68024E00C13987 /* BST.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BST.cpp; sourceTree = "<group>"; };
+		ADB77EF51D68024E00C13987 /* BST.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BST.hpp; sourceTree = "<group>"; };
+		ADB77EF71D6807F600C13987 /* BSTTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BSTTest.cpp; sourceTree = "<group>"; };
+		ADBB13CA1D60A0EC007BDC57 /* MultiThreadTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MultiThreadTest.cpp; sourceTree = "<group>"; };
+		ADBE61011DC16846001BC100 /* GoogleDivisionToValue.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleDivisionToValue.cpp; sourceTree = "<group>"; };
+		ADC90FBB1DC0937000F79AC1 /* MiniCassandraTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniCassandraTest.cpp; sourceTree = "<group>"; };
+		ADCC2EB11FCEDAE200965529 /* CheckCircularLinkedList.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CheckCircularLinkedList.cpp; sourceTree = "<group>"; };
+		ADCCCF151D8C00A100EBD63E /* PowerSet.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PowerSet.cpp; sourceTree = "<group>"; };
+		ADCDFDFA1DCF4F24007F86CA /* OpenCloseDoorProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = OpenCloseDoorProblem.cpp; sourceTree = "<group>"; };
+		ADCDFDFC1DCF51A2007F86CA /* Get3LargestNumIn25BySort5.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Get3LargestNumIn25BySort5.cpp; sourceTree = "<group>"; };
+		ADCEF0831D5F495E004623F2 /* AlgoTest */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = AlgoTest; sourceTree = BUILT_PRODUCTS_DIR; };
+		ADCEF0861D5F495E004623F2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		ADCEF08F1D5F4EDB004623F2 /* libgmock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgmock.a; path = ../../googletest/build/googlemock/libgmock.a; sourceTree = "<group>"; };
+		ADCEF0911D5F4EEC004623F2 /* libgtest.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; name = libgtest.a; path = ../../googletest/build/googlemock/gtest/libgtest.a; sourceTree = "<group>"; };
+		ADCEF0961D5F56E0004623F2 /* HashTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = HashTest.cpp; sourceTree = "<group>"; };
+		ADD369EB1D9662CC00F24B58 /* GreedyActivitySeletion.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GreedyActivitySeletion.cpp; sourceTree = "<group>"; };
+		ADD3CD821DCAADA8005FBE33 /* GetStringAllPermutation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetStringAllPermutation.cpp; sourceTree = "<group>"; };
+		ADD3CD841DCAB07F005FBE33 /* TestIfStringIsPalindromic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TestIfStringIsPalindromic.cpp; sourceTree = "<group>"; };
+		ADD3CD861DCB3A83005FBE33 /* GoogleRandomCoinGame.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleRandomCoinGame.cpp; sourceTree = "<group>"; };
+		ADD8941A1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindMaxProfitFromPricelist.cpp; sourceTree = "<group>"; };
+		ADD8941C1D939643000E2CE6 /* GraphDiagonalTraverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GraphDiagonalTraverse.cpp; sourceTree = "<group>"; };
+		ADE36D991DC9CD4E00973C90 /* DiagonalTraverse.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = DiagonalTraverse.cpp; sourceTree = "<group>"; };
+		ADE36D9B1DC9E8EE00973C90 /* AddTwoLinkedList.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AddTwoLinkedList.cpp; sourceTree = "<group>"; };
+		ADE36D9D1DCA0D4C00973C90 /* PrintBigX.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = PrintBigX.cpp; sourceTree = "<group>"; };
+		ADE5336B1DCC032200071400 /* CalendarRenderingProblem.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CalendarRenderingProblem.cpp; sourceTree = "<group>"; };
+		ADEA392D1E5D29C30023D5D2 /* FibonacciTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FibonacciTest.cpp; sourceTree = "<group>"; };
+		ADEA90C21D76D6B500302B1F /* SortByRotation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SortByRotation.cpp; sourceTree = "<group>"; };
+		ADEB7D041D9D4DEC003BD06B /* FindKBigIn1UnsortedArray.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FindKBigIn1UnsortedArray.cpp; sourceTree = "<group>"; };
+		ADED440D1E6E6C1400AE5CAD /* AlmostPalindrome.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AlmostPalindrome.cpp; sourceTree = "<group>"; };
+		ADF058BC1DB1DC4500382210 /* MiniTweeter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MiniTweeter.cpp; sourceTree = "<group>"; };
+		ADF2D6DC1D65EC9500ED18D0 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
+		ADF3AC821DBF78BD008FB1F0 /* MicroConsistentHashing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MicroConsistentHashing.cpp; sourceTree = "<group>"; };
+		ADF3C26B1DA3ACD900CC10CC /* ThreeSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeSum.cpp; sourceTree = "<group>"; };
+		ADF4F4B81D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BroadFirstSearchTreeTest.cpp; sourceTree = "<group>"; };
+		ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleS2HilbertCurveTest.cpp; sourceTree = "<group>"; };
+		ADF794F11D9556580078E59E /* GetPermulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetPermulation.cpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		ADCEF0801D5F495E004623F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				ADCEF0901D5F4EDB004623F2 /* libgmock.a in Frameworks */,
+				ADCEF0921D5F4EEC004623F2 /* libgtest.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AD4242251E740D10005903A9 /* Sorts */ = {
+			isa = PBXGroup;
+			children = (
+				ADF2D6DC1D65EC9500ED18D0 /* MergeSort.cpp */,
+				AD6EAF621D67108E001D8ED5 /* QuickSort.cpp */,
+				AD95D8EF1D647E1600EF544C /* HeapSort.cpp */,
+				AD4242261E740E29005903A9 /* InsertionSort.cpp */,
+			);
+			name = Sorts;
+			sourceTree = "<group>";
+		};
+		AD768DD41E43F48F0043DF18 /* BitWiseAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				AD30B3D21DBB8D1900A29DD8 /* BitWiseTest.cpp */,
+				AD768DD61E43F59E0043DF18 /* FindMaxXORBetweenNumbers.cpp */,
+			);
+			name = BitWiseAlgo;
+			sourceTree = "<group>";
+		};
+		AD768DD51E43F4A60043DF18 /* StringAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				ADB279051D6F1DE100158CCD /* WordsSorting.cpp */,
+				AD9A048F1D916CBC00974E6E /* FindNonRepetitiveLetter.cpp */,
+				ADA0B77A1DCFF1DC0058B72F /* SearchStringProblem.cpp */,
+				ADD3CD821DCAADA8005FBE33 /* GetStringAllPermutation.cpp */,
+				ADD3CD841DCAB07F005FBE33 /* TestIfStringIsPalindromic.cpp */,
+				AD9F55901DDAE3F000614A4E /* AnagramTest.cpp */,
+				AD7C22D11DE6CF7D00938769 /* StringShift.cpp */,
+				ADED440D1E6E6C1400AE5CAD /* AlmostPalindrome.cpp */,
+				ADA0B77E1DD03B2F0058B72F /* IsStringRotated.cpp */,
+			);
+			name = StringAlgo;
+			sourceTree = "<group>";
+		};
+		AD8D7D221DFB75D100DC41D0 /* Googletest */ = {
+			isa = PBXGroup;
+			children = (
+				AD79741E1DED6B42005EF351 /* ValueParameterizedTest.cpp */,
+				AD71D2B31DEEE5DF001B8C55 /* MockTest.cpp */,
+				AD71D2B51DEFF8F4001B8C55 /* DBAccessMockTest.cpp */,
+				AD79741C1DED6753005EF351 /* FixtureTest.cpp */,
+				AD8D7D251DFB90C100DC41D0 /* MockSetArgumentTest.cpp */,
+				AD8D7D271DFBD00E00DC41D0 /* MatchInterfaceTest.cpp */,
+				AD8D7D291DFC12EA00DC41D0 /* CardinalityInterfaceTest.cpp */,
+				AD8D7D2B1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp */,
+			);
+			name = Googletest;
+			sourceTree = "<group>";
+		};
+		ADCEF07A1D5F495E004623F2 = {
+			isa = PBXGroup;
+			children = (
+				ADCEF0911D5F4EEC004623F2 /* libgtest.a */,
+				ADCEF08F1D5F4EDB004623F2 /* libgmock.a */,
+				ADCEF0851D5F495E004623F2 /* AlgoTest */,
+				ADCEF0841D5F495E004623F2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		ADCEF0841D5F495E004623F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				ADCEF0831D5F495E004623F2 /* AlgoTest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		ADCEF0851D5F495E004623F2 /* AlgoTest */ = {
+			isa = PBXGroup;
+			children = (
+				ADD32BE71EDC4E730072315D /* DataStructure */,
+				ADD32BE61EDC4C060072315D /* RealWorldQuiz */,
+				ADD32BE51EDC47D80072315D /* Graph */,
+				AD4242251E740D10005903A9 /* Sorts */,
+				AD768DD51E43F4A60043DF18 /* StringAlgo */,
+				AD768DD41E43F48F0043DF18 /* BitWiseAlgo */,
+				AD8D7D221DFB75D100DC41D0 /* Googletest */,
+				ADCEF0861D5F495E004623F2 /* main.cpp */,
+				ADEA392C1E5D290D0023D5D2 /* BasicAlgo */,
+			);
+			path = AlgoTest;
+			sourceTree = "<group>";
+		};
+		ADD32BE51EDC47D80072315D /* Graph */ = {
+			isa = PBXGroup;
+			children = (
+				ADBE61011DC16846001BC100 /* GoogleDivisionToValue.cpp */,
+				AD7BDAEF1DA87AC500F4B862 /* KDTree.cpp */,
+				AD8D00931D6897680045B651 /* GraphDFS.cpp */,
+				AD2033CD1DCD9FD200505BDB /* ClosestPointInAPlane.cpp */,
+			);
+			name = Graph;
+			sourceTree = "<group>";
+		};
+		ADD32BE61EDC4C060072315D /* RealWorldQuiz */ = {
+			isa = PBXGroup;
+			children = (
+				ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */,
+				AD8D7D231DFB765E00DC41D0 /* BinaryWatch.cpp */,
+				AD350F5C1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp */,
+				AD82A7C11DE8626600F6AB9B /* PoorPigProblem.cpp */,
+				AD1247D11DE314EE0065BE9A /* FindTaxiCabNum.cpp */,
+				AD1247CF1DE2EC4A0065BE9A /* DecimalDominant.cpp */,
+				AD1247CD1DE2B9E20065BE9A /* NutsAndBoltsProblem.cpp */,
+				AD09A16C1DE1CCE40011396A /* UFAppFindSuccessor.cpp */,
+				AD09A16A1DE1A07D0011396A /* UFAppConnectFriends.cpp */,
+				AD6A919D1DDF39400007A2CC /* DeepCopy.cpp */,
+				AD6A919B1DDF1FBC0007A2CC /* ReverseDigits.cpp */,
+				AD6A91991DDEC0FC0007A2CC /* MiniQueueByTwoStacks.cpp */,
+				AD6A91971DDE9AC50007A2CC /* MiniStackWithMinValue.cpp */,
+				ADB3E4171DDDAA06002D9816 /* GraphSnakeTraverse.cpp */,
+				AD5F09BE1DDC607E00C49BE5 /* GoogleFrogJumping.cpp */,
+				AD300EED1DDBED4400598B53 /* WebCrawlerTest.cpp */,
+				AD91D9EF1DD843C700A9D680 /* RateLimiter.cpp */,
+				AD91D9ED1DD6E4FB00A9D680 /* tinyURL.cpp */,
+				AD91D9EB1DD6DC4100A9D680 /* SimpleMasterSlaveHeartBeat.cpp */,
+				AD7B55791DD6789B0088E1EC /* SimpleGoogFileSystem.cpp */,
+				ADA0B7801DD04D660058B72F /* IsArbitrageInExchanges.cpp */,
+				ADA0B77C1DD032FC0058B72F /* FindMaxSumSubArray.cpp */,
+				ADCDFDFC1DCF51A2007F86CA /* Get3LargestNumIn25BySort5.cpp */,
+				AD2033CF1DCDEC3900505BDB /* GetNumOfScoreCombineForGivenValue.cpp */,
+				ADCDFDFA1DCF4F24007F86CA /* OpenCloseDoorProblem.cpp */,
+				AD2033CB1DCD971E00505BDB /* TriominoProblem.cpp */,
+				ADD3CD861DCB3A83005FBE33 /* GoogleRandomCoinGame.cpp */,
+				ADE36D9D1DCA0D4C00973C90 /* PrintBigX.cpp */,
+				ADE36D991DC9CD4E00973C90 /* DiagonalTraverse.cpp */,
+				AD3822191DC4C47E0079EEDE /* TypeAheadTest.cpp */,
+				ADC90FBB1DC0937000F79AC1 /* MiniCassandraTest.cpp */,
+				ADE5336B1DCC032200071400 /* CalendarRenderingProblem.cpp */,
+				ADA77AE81DCC71A000E302E6 /* MakeUpAndDownArray.cpp */,
+				ADA77AEA1DCC9FA900E302E6 /* PowerFunctionTest.cpp */,
+				ADA77AEC1DCCA0A400E302E6 /* RomanNumberToDigit.cpp */,
+				ADA77AEE1DCCAB6D00E302E6 /* FindMinSpanOverInstructment.cpp */,
+				AD9DA1F11DBDB947009CA67A /* MemcachedTest.cpp */,
+				ADCCCF151D8C00A100EBD63E /* PowerSet.cpp */,
+				AD8D00911D6892750045B651 /* TopNListTest.cpp */,
+				AD95D8ED1D63D63B00EF544C /* CompressDataInput.cpp */,
+				AD9D69591D7036F600F9DC7D /* FindNumberWithGivenProduct.cpp */,
+				AD07AF6D1D7114F200FD32B3 /* SwipeNumBackToOrder.cpp */,
+				ADA2097B1D71A638001868C2 /* FindAbsolutePermutation.cpp */,
+				AD05A6B11D73045D00525B67 /* BombEstimate.cpp */,
+				AD3646A21D74584B00F52C6F /* FindCrossBlock.cpp */,
+				AD39B3731D75B33800607E81 /* AlmostSorted.cpp */,
+				ADEA90C21D76D6B500302B1F /* SortByRotation.cpp */,
+				AD14BB4E1D7828020089C814 /* GridSearch.cpp */,
+				AD82656D1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp */,
+				AD82656B1D7985E900BBB0B0 /* MergeKSortedList.cpp */,
+				AD388F491D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp */,
+				AD3423651D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp */,
+				ADD8941A1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp */,
+				ADD8941C1D939643000E2CE6 /* GraphDiagonalTraverse.cpp */,
+				ADF794F11D9556580078E59E /* GetPermulation.cpp */,
+				ADD369EB1D9662CC00F24B58 /* GreedyActivitySeletion.cpp */,
+				AD3BA7CF1D975E9E00A58B94 /* FindShortestPath.cpp */,
+				ADEB7D041D9D4DEC003BD06B /* FindKBigIn1UnsortedArray.cpp */,
+				ADB06B7B1D9E14900028C432 /* FindKSmallIn2SortedArray.cpp */,
+				ADB06B7D1D9E4C630028C432 /* DynamicMedian.cpp */,
+				ADF3C26B1DA3ACD900CC10CC /* ThreeSum.cpp */,
+				AD8478FA1DA4683C00B28EC9 /* FindNumInBitnonicSequence.cpp */,
+				ADF058BC1DB1DC4500382210 /* MiniTweeter.cpp */,
+				ADCC2EB11FCEDAE200965529 /* CheckCircularLinkedList.cpp */,
+			);
+			name = RealWorldQuiz;
+			sourceTree = "<group>";
+		};
+		ADD32BE71EDC4E730072315D /* DataStructure */ = {
+			isa = PBXGroup;
+			children = (
+				AD8265661D78EF7700BBB0B0 /* AVLTree.hpp */,
+				AD8265651D78EF7700BBB0B0 /* AVLTree.cpp */,
+				AD80F8491D6004E400194C4E /* ReverseLinkedListTest.cpp */,
+				AD6EAF641D6731DA001D8ED5 /* BinaryTreeSerializeTest.cpp */,
+				AD6EAF681D673228001D8ED5 /* BinaryTree.h */,
+				AD6EAF691D6733EC001D8ED5 /* BinaryTree.cpp */,
+				AD9AE9951DE3B5C2008F240B /* BinaryTreeO1InOrderTraverse.cpp */,
+				ADB77EF31D67E8ED00C13987 /* CommonStructure.h */,
+				ADB77EF41D68024E00C13987 /* BST.cpp */,
+				ADB77EF51D68024E00C13987 /* BST.hpp */,
+				ADB77EF71D6807F600C13987 /* BSTTest.cpp */,
+				ADF4F4B81D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp */,
+				AD5A61F41D7C48140021CC8A /* RBTree.cpp */,
+				AD5A61F51D7C48140021CC8A /* RBTree.hpp */,
+				AD5B4F901D7EF8C900EF3D0C /* TrieTreeAndSerialization.cpp */,
+				AD9047811D8157DC00568006 /* BinaryIndexedTree.cpp */,
+				AD9047821D8157DC00568006 /* BinaryIndexedTree.hpp */,
+				AD4CC2E31DBCD2950075496C /* ConsistentHashing.cpp */,
+				ADF3AC821DBF78BD008FB1F0 /* MicroConsistentHashing.cpp */,
+				ADE36D9B1DC9E8EE00973C90 /* AddTwoLinkedList.cpp */,
+				ADA77AF01DCCB38800E302E6 /* BinaryTreeCompareTest.cpp */,
+				AD9AE9971DE3D3F7008F240B /* QueueWithIthElement.cpp */,
+				AD09A1681DE199080011396A /* WeightedQuickUnion.hpp */,
+				AD63B87F1E012D5500954810 /* SharePointerSkeleton.cpp */,
+				AD1247CB1DE2A9E40065BE9A /* ShuffleLinkedlist.cpp */,
+			);
+			name = DataStructure;
+			sourceTree = "<group>";
+		};
+		ADEA392C1E5D290D0023D5D2 /* BasicAlgo */ = {
+			isa = PBXGroup;
+			children = (
+				AD30B3D01DBB23CA00A29DD8 /* RegexTest.cpp */,
+				AD2800B01D8AAD02006D583A /* RandomTestCases.cpp */,
+				AD9DA0211D87F55800A19663 /* SmallUtilTest.cpp */,
+				AD8265681D796EA800BBB0B0 /* BigInteger.cpp */,
+				AD8265691D796EA800BBB0B0 /* BigInteger.hpp */,
+				AD7810401D628F7100C1906A /* LRUCacheTest.cpp */,
+				AD7810411D628F7100C1906A /* LRUCacheTest.h */,
+				ADEA392D1E5D29C30023D5D2 /* FibonacciTest.cpp */,
+				AD715AD11E6DAEFF008598FC /* MultiGCD.cpp */,
+				ADCEF0961D5F56E0004623F2 /* HashTest.cpp */,
+				ADBB13CA1D60A0EC007BDC57 /* MultiThreadTest.cpp */,
+				AD816ACB1D61F13F00B03CAC /* BoostUnorderedMapTest.cpp */,
+			);
+			name = BasicAlgo;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		ADCEF0821D5F495E004623F2 /* AlgoTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = ADCEF08A1D5F495E004623F2 /* Build configuration list for PBXNativeTarget "AlgoTest" */;
+			buildPhases = (
+				ADCEF07F1D5F495E004623F2 /* Sources */,
+				ADCEF0801D5F495E004623F2 /* Frameworks */,
+				ADCEF0811D5F495E004623F2 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlgoTest;
+			productName = AlgoTest;
+			productReference = ADCEF0831D5F495E004623F2 /* AlgoTest */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		ADCEF07B1D5F495E004623F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Tony Chen";
+				TargetAttributes = {
+					ADCEF0821D5F495E004623F2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = ADCEF07E1D5F495E004623F2 /* Build configuration list for PBXProject "AlgoTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = ADCEF07A1D5F495E004623F2;
+			productRefGroup = ADCEF0841D5F495E004623F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				ADCEF0821D5F495E004623F2 /* AlgoTest */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		ADCEF07F1D5F495E004623F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD388F4A1D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp in Sources */,
+				AD30B3D11DBB23CA00A29DD8 /* RegexTest.cpp in Sources */,
+				AD9F55911DDAE3F000614A4E /* AnagramTest.cpp in Sources */,
+				AD6A919A1DDEC0FC0007A2CC /* MiniQueueByTwoStacks.cpp in Sources */,
+				ADE5336C1DCC032200071400 /* CalendarRenderingProblem.cpp in Sources */,
+				ADA77AE91DCC71A000E302E6 /* MakeUpAndDownArray.cpp in Sources */,
+				AD300EEE1DDBED4400598B53 /* WebCrawlerTest.cpp in Sources */,
+				ADA77AED1DCCA0A400E302E6 /* RomanNumberToDigit.cpp in Sources */,
+				ADED440E1E6E6C1400AE5CAD /* AlmostPalindrome.cpp in Sources */,
+				ADD3CD851DCAB07F005FBE33 /* TestIfStringIsPalindromic.cpp in Sources */,
+				AD2033CC1DCD971E00505BDB /* TriominoProblem.cpp in Sources */,
+				AD71D2B61DEFF8F4001B8C55 /* DBAccessMockTest.cpp in Sources */,
+				AD6A919E1DDF39400007A2CC /* DeepCopy.cpp in Sources */,
+				AD82656E1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp in Sources */,
+				ADB77EF61D68024E00C13987 /* BST.cpp in Sources */,
+				AD7810421D628F7100C1906A /* LRUCacheTest.cpp in Sources */,
+				AD1247D01DE2EC4A0065BE9A /* DecimalDominant.cpp in Sources */,
+				AD1247CC1DE2A9E40065BE9A /* ShuffleLinkedlist.cpp in Sources */,
+				AD5B4F921D7EF8C900EF3D0C /* TrieTreeAndSerialization.cpp in Sources */,
+				ADB06B7E1D9E4C630028C432 /* DynamicMedian.cpp in Sources */,
+				ADA77AEF1DCCAB6D00E302E6 /* FindMinSpanOverInstructment.cpp in Sources */,
+				ADEB7D051D9D4DEC003BD06B /* FindKBigIn1UnsortedArray.cpp in Sources */,
+				ADA2097C1D71A638001868C2 /* FindAbsolutePermutation.cpp in Sources */,
+				ADE36D9C1DC9E8EE00973C90 /* AddTwoLinkedList.cpp in Sources */,
+				ADF058BD1DB1DC4500382210 /* MiniTweeter.cpp in Sources */,
+				ADCCCF161D8C00A100EBD63E /* PowerSet.cpp in Sources */,
+				AD5F09BF1DDC607E00C49BE5 /* GoogleFrogJumping.cpp in Sources */,
+				ADD369EC1D9662CC00F24B58 /* GreedyActivitySeletion.cpp in Sources */,
+				AD4242271E740E29005903A9 /* InsertionSort.cpp in Sources */,
+				AD2033D01DCDEC3900505BDB /* GetNumOfScoreCombineForGivenValue.cpp in Sources */,
+				AD1247CE1DE2B9E20065BE9A /* NutsAndBoltsProblem.cpp in Sources */,
+				AD768DD71E43F59E0043DF18 /* FindMaxXORBetweenNumbers.cpp in Sources */,
+				AD6A919C1DDF1FBC0007A2CC /* ReverseDigits.cpp in Sources */,
+				AD09A16D1DE1CCE40011396A /* UFAppFindSuccessor.cpp in Sources */,
+				AD07AF6E1D7114F200FD32B3 /* SwipeNumBackToOrder.cpp in Sources */,
+				AD9047831D8157DC00568006 /* BinaryIndexedTree.cpp in Sources */,
+				AD9AE9981DE3D3F7008F240B /* QueueWithIthElement.cpp in Sources */,
+				ADBB13CB1D60A0EC007BDC57 /* MultiThreadTest.cpp in Sources */,
+				AD9D695A1D7036F600F9DC7D /* FindNumberWithGivenProduct.cpp in Sources */,
+				AD9A04901D916CBC00974E6E /* FindNonRepetitiveLetter.cpp in Sources */,
+				AD80F84A1D6004E400194C4E /* ReverseLinkedListTest.cpp in Sources */,
+				AD9AE9961DE3B5C2008F240B /* BinaryTreeO1InOrderTraverse.cpp in Sources */,
+				AD8D7D281DFBD00E00DC41D0 /* MatchInterfaceTest.cpp in Sources */,
+				ADA0B77D1DD032FC0058B72F /* FindMaxSumSubArray.cpp in Sources */,
+				ADD3CD831DCAADA8005FBE33 /* GetStringAllPermutation.cpp in Sources */,
+				ADB3E4181DDDAA06002D9816 /* GraphSnakeTraverse.cpp in Sources */,
+				ADC90FBC1DC0937000F79AC1 /* MiniCassandraTest.cpp in Sources */,
+				AD6EAF651D6731DA001D8ED5 /* BinaryTreeSerializeTest.cpp in Sources */,
+				AD91D9F01DD843C700A9D680 /* RateLimiter.cpp in Sources */,
+				AD8D00921D6892750045B651 /* TopNListTest.cpp in Sources */,
+				AD2800B11D8AAD02006D583A /* RandomTestCases.cpp in Sources */,
+				AD3646A31D74584B00F52C6F /* FindCrossBlock.cpp in Sources */,
+				ADB77EF81D6807F600C13987 /* BSTTest.cpp in Sources */,
+				ADF4F4B91D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp in Sources */,
+				AD14BB4F1D7828020089C814 /* GridSearch.cpp in Sources */,
+				AD91D9EC1DD6DC4100A9D680 /* SimpleMasterSlaveHeartBeat.cpp in Sources */,
+				ADF3C26C1DA3ACD900CC10CC /* ThreeSum.cpp in Sources */,
+				ADA0B7811DD04D660058B72F /* IsArbitrageInExchanges.cpp in Sources */,
+				AD6EAF631D67108E001D8ED5 /* QuickSort.cpp in Sources */,
+				ADD8941D1D939643000E2CE6 /* GraphDiagonalTraverse.cpp in Sources */,
+				AD95D8F01D647E1600EF544C /* HeapSort.cpp in Sources */,
+				AD82A7C21DE8626600F6AB9B /* PoorPigProblem.cpp in Sources */,
+				AD71D2B41DEEE5DF001B8C55 /* MockTest.cpp in Sources */,
+				AD38221A1DC4C47E0079EEDE /* TypeAheadTest.cpp in Sources */,
+				AD2033CE1DCD9FD200505BDB /* ClosestPointInAPlane.cpp in Sources */,
+				ADF53E4F1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp in Sources */,
+				AD82656C1D7985E900BBB0B0 /* MergeKSortedList.cpp in Sources */,
+				ADE36D9E1DCA0D4C00973C90 /* PrintBigX.cpp in Sources */,
+				AD8D7D2A1DFC12EA00DC41D0 /* CardinalityInterfaceTest.cpp in Sources */,
+				ADD3CD871DCB3A83005FBE33 /* GoogleRandomCoinGame.cpp in Sources */,
+				AD7BDAF01DA87AC500F4B862 /* KDTree.cpp in Sources */,
+				AD7B557A1DD6789B0088E1EC /* SimpleGoogFileSystem.cpp in Sources */,
+				AD63B8801E012D5500954810 /* SharePointerSkeleton.cpp in Sources */,
+				AD8265671D78EF7700BBB0B0 /* AVLTree.cpp in Sources */,
+				ADCC2EB21FCEDAE200965529 /* CheckCircularLinkedList.cpp in Sources */,
+				AD8D00941D6897680045B651 /* GraphDFS.cpp in Sources */,
+				AD3423661D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp in Sources */,
+				AD8D7D2C1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp in Sources */,
+				ADD8941B1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp in Sources */,
+				ADEA392E1E5D29C30023D5D2 /* FibonacciTest.cpp in Sources */,
+				ADA77AF11DCCB38800E302E6 /* BinaryTreeCompareTest.cpp in Sources */,
+				AD30B3D41DBB8D1900A29DD8 /* BitWiseTest.cpp in Sources */,
+				ADF794F21D9556580078E59E /* GetPermulation.cpp in Sources */,
+				AD9DA1F21DBDB947009CA67A /* MemcachedTest.cpp in Sources */,
+				AD7C22D21DE6CF7D00938769 /* StringShift.cpp in Sources */,
+				ADCDFDFD1DCF51A2007F86CA /* Get3LargestNumIn25BySort5.cpp in Sources */,
+				ADE36D9A1DC9CD4E00973C90 /* DiagonalTraverse.cpp in Sources */,
+				AD350F5D1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp in Sources */,
+				ADCEF0971D5F56E0004623F2 /* HashTest.cpp in Sources */,
+				ADA77AEB1DCC9FA900E302E6 /* PowerFunctionTest.cpp in Sources */,
+				AD8478FB1DA4683C00B28EC9 /* FindNumInBitnonicSequence.cpp in Sources */,
+				AD79741F1DED6B42005EF351 /* ValueParameterizedTest.cpp in Sources */,
+				AD79741D1DED6753005EF351 /* FixtureTest.cpp in Sources */,
+				ADCDFDFB1DCF4F24007F86CA /* OpenCloseDoorProblem.cpp in Sources */,
+				ADB06B7C1D9E14900028C432 /* FindKSmallIn2SortedArray.cpp in Sources */,
+				AD715AD21E6DAEFF008598FC /* MultiGCD.cpp in Sources */,
+				ADF3AC831DBF78BD008FB1F0 /* MicroConsistentHashing.cpp in Sources */,
+				AD3BA7D01D975E9E00A58B94 /* FindShortestPath.cpp in Sources */,
+				AD1247D21DE314EE0065BE9A /* FindTaxiCabNum.cpp in Sources */,
+				AD05A6B21D73045D00525B67 /* BombEstimate.cpp in Sources */,
+				AD8D7D261DFB90C100DC41D0 /* MockSetArgumentTest.cpp in Sources */,
+				AD9DA0221D87F55800A19663 /* SmallUtilTest.cpp in Sources */,
+				AD82656A1D796EA800BBB0B0 /* BigInteger.cpp in Sources */,
+				AD91D9EE1DD6E4FB00A9D680 /* tinyURL.cpp in Sources */,
+				ADCEF0871D5F495E004623F2 /* main.cpp in Sources */,
+				AD816ACC1D61F13F00B03CAC /* BoostUnorderedMapTest.cpp in Sources */,
+				ADA0B77F1DD03B2F0058B72F /* IsStringRotated.cpp in Sources */,
+				AD09A16B1DE1A07D0011396A /* UFAppConnectFriends.cpp in Sources */,
+				ADBE61021DC16846001BC100 /* GoogleDivisionToValue.cpp in Sources */,
+				ADB279061D6F1DE100158CCD /* WordsSorting.cpp in Sources */,
+				AD6EAF6A1D6733EC001D8ED5 /* BinaryTree.cpp in Sources */,
+				ADA0B77B1DCFF1DC0058B72F /* SearchStringProblem.cpp in Sources */,
+				ADF2D6DD1D65EC9500ED18D0 /* MergeSort.cpp in Sources */,
+				AD6A91981DDE9AC50007A2CC /* MiniStackWithMinValue.cpp in Sources */,
+				AD39B3741D75B33800607E81 /* AlmostSorted.cpp in Sources */,
+				ADEA90C31D76D6B500302B1F /* SortByRotation.cpp in Sources */,
+				AD8D7D241DFB765E00DC41D0 /* BinaryWatch.cpp in Sources */,
+				AD95D8EE1D63D63B00EF544C /* CompressDataInput.cpp in Sources */,
+				AD4CC2E41DBCD2950075496C /* ConsistentHashing.cpp in Sources */,
+				AD5A61F61D7C48140021CC8A /* RBTree.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		ADCEF0881D5F495E004623F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Include/,
+					/opt/local/include/,
+					"/Users/tonychen/Projects/googletest/googletest/include/**",
+					"/Users/tonychen/Projects/googletest/googlemock/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/opt/local/lib/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		ADCEF0891D5F495E004623F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/Include/,
+					/opt/local/include/,
+					"/Users/tonychen/Projects/googletest/googletest/include/**",
+					"/Users/tonychen/Projects/googletest/googlemock/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					/opt/local/lib/,
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		ADCEF08B1D5F495E004623F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include/,
+					"/Users/tonychen/Projects/cpp-test/googletest/googletest/include/**",
+					"/Users/tonychen/Projects/cpp-test/googletest/googlemock/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"/Users/tonychen/Projects/cpp-test/googletest/build/googlemock/**",
+					"/opt/local/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		ADCEF08C1D5F495E004623F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					/opt/local/include/,
+					"/Users/tonychen/Projects/cpp-test/googletest/googletest/include/**",
+					"/Users/tonychen/Projects/cpp-test/googletest/googlemock/include/**",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"/Users/tonychen/Projects/cpp-test/googletest/build/googlemock/**",
+					"/opt/local/lib/**",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		ADCEF07E1D5F495E004623F2 /* Build configuration list for PBXProject "AlgoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCEF0881D5F495E004623F2 /* Debug */,
+				ADCEF0891D5F495E004623F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		ADCEF08A1D5F495E004623F2 /* Build configuration list for PBXNativeTarget "AlgoTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ADCEF08B1D5F495E004623F2 /* Debug */,
+				ADCEF08C1D5F495E004623F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = ADCEF07B1D5F495E004623F2 /* Project object */;
+}
