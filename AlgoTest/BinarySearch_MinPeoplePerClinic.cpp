@@ -1,14 +1,13 @@
-// Example program
-#include <iostream>
-#include <string>
 #include <vector>
 #include <algorithm>
 #include <numeric>
 #include <cmath>
+#include <gtest/gtest.h>
+#include <gmock/gmock.h>
 
 using namespace std;
 
-int predicate(vector<int>& vecPeopleOfCities, int x)
+int predicate1(vector<int>& vecPeopleOfCities, int x)
 {
     int nRequiredClinic = 0;
     for (int i = 0; i < vecPeopleOfCities.size(); i++)
@@ -30,7 +29,7 @@ int FindMinMaxPeopleForSingleClinic(vector<int>& vecPeopleOfCities, int numClini
     while (nMinMaxPeoplePerClinic < nMaxMaxPeoplePerClinic)
     {
         int mid = nMinMaxPeoplePerClinic + (nMaxMaxPeoplePerClinic-nMinMaxPeoplePerClinic)/2;
-        if (predicate(vecPeopleOfCities, mid) <= numClinics)
+        if (predicate1(vecPeopleOfCities, mid) <= numClinics)
         {
             nMaxMaxPeoplePerClinic = mid;
         }
@@ -43,8 +42,8 @@ int FindMinMaxPeopleForSingleClinic(vector<int>& vecPeopleOfCities, int numClini
     return nMinMaxPeoplePerClinic;
 }
 
-TEST(BinarSearch, MinMaxPeoplePerClinic)
+TEST(BinarSearch2, MinMaxPeoplePerClinic)
 {
-    vector<int> cabinets = { 200000, 500000 };
-    EXPECT_EQ(FindMinMaxPeopleForSingleClinic(cabinets, 7), 100000);
+    vector<int> vecPeopleOfCities = { 200000, 500000 };
+    EXPECT_EQ(FindMinMaxPeopleForSingleClinic(vecPeopleOfCities, 7), 100000);
 }

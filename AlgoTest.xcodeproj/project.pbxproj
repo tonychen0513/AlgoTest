@@ -126,6 +126,7 @@
 		ADF2D6DD1D65EC9500ED18D0 /* MergeSort.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF2D6DC1D65EC9500ED18D0 /* MergeSort.cpp */; };
 		ADF3AC831DBF78BD008FB1F0 /* MicroConsistentHashing.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF3AC821DBF78BD008FB1F0 /* MicroConsistentHashing.cpp */; };
 		ADF3C26C1DA3ACD900CC10CC /* ThreeSum.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF3C26B1DA3ACD900CC10CC /* ThreeSum.cpp */; };
+		ADF3EF4421031A250065022D /* BinarySearch_MinPeoplePerClinic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF3EF4321031A250065022D /* BinarySearch_MinPeoplePerClinic.cpp */; };
 		ADF4F4B91D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF4F4B81D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp */; };
 		ADF53E4F1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */; };
 		ADF794F21D9556580078E59E /* GetPermulation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = ADF794F11D9556580078E59E /* GetPermulation.cpp */; };
@@ -273,6 +274,7 @@
 		ADF2D6DC1D65EC9500ED18D0 /* MergeSort.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MergeSort.cpp; sourceTree = "<group>"; };
 		ADF3AC821DBF78BD008FB1F0 /* MicroConsistentHashing.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MicroConsistentHashing.cpp; sourceTree = "<group>"; };
 		ADF3C26B1DA3ACD900CC10CC /* ThreeSum.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = ThreeSum.cpp; sourceTree = "<group>"; };
+		ADF3EF4321031A250065022D /* BinarySearch_MinPeoplePerClinic.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BinarySearch_MinPeoplePerClinic.cpp; sourceTree = "<group>"; };
 		ADF4F4B81D68364B00CD4877 /* BroadFirstSearchTreeTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BroadFirstSearchTreeTest.cpp; sourceTree = "<group>"; };
 		ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GoogleS2HilbertCurveTest.cpp; sourceTree = "<group>"; };
 		ADF794F11D9556580078E59E /* GetPermulation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GetPermulation.cpp; sourceTree = "<group>"; };
@@ -390,6 +392,8 @@
 		ADD32BE61EDC4C060072315D /* RealWorldQuiz */ = {
 			isa = PBXGroup;
 			children = (
+				ADF3EF4321031A250065022D /* BinarySearch_MinPeoplePerClinic.cpp */,
+				AD388F491D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp */,
 				ADF53E4E1E38966E003C7DD7 /* GoogleS2HilbertCurveTest.cpp */,
 				AD8D7D231DFB765E00DC41D0 /* BinaryWatch.cpp */,
 				AD350F5C1DEAF2880016546E /* DivideToTwoSubSetWithSameSum.cpp */,
@@ -440,7 +444,6 @@
 				AD14BB4E1D7828020089C814 /* GridSearch.cpp */,
 				AD82656D1D79B85C00BBB0B0 /* CountSmallerNumAfterSelf.cpp */,
 				AD82656B1D7985E900BBB0B0 /* MergeKSortedList.cpp */,
-				AD388F491D83EBFB005907FF /* BinarySearch_FairWorkLoad.cpp */,
 				AD3423651D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp */,
 				ADD8941A1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp */,
 				ADD8941C1D939643000E2CE6 /* GraphDiagonalTraverse.cpp */,
@@ -643,6 +646,7 @@
 				AD8D00941D6897680045B651 /* GraphDFS.cpp in Sources */,
 				AD3423661D924AC700284F55 /* FindMaxNumberOfBusInStop.cpp in Sources */,
 				AD8D7D2C1DFC1B2A00DC41D0 /* ActionInterfaceTest.cpp in Sources */,
+				ADF3EF4421031A250065022D /* BinarySearch_MinPeoplePerClinic.cpp in Sources */,
 				ADD8941B1D934A7A000E2CE6 /* FindMaxProfitFromPricelist.cpp in Sources */,
 				ADEA392E1E5D29C30023D5D2 /* FibonacciTest.cpp in Sources */,
 				ADA77AF11DCCB38800E302E6 /* BinaryTreeCompareTest.cpp in Sources */,
