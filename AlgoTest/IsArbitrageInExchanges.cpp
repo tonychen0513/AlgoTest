@@ -14,8 +14,10 @@
 
 using namespace std;
 
-//  问题： 给出一个多个Currency Exchange的表，比如USD，EUR，CHF，JPY，AUD，CAD之间的兑换率，求是否存在一个arbitrage的可能性，arbitrage即从一个currency出发，兑换其他货币，最后换回自己的货币可以得到更多的钱。
-// 算法首先要看出这是一个图论，各个currency可以看做节点（vertex），交换率可以看成从source currency节点到target currency的有向边（Edge）。这里关键是边的权值，为了方便后面的bellman ford算法，权值应为－log（rate）。这样所有大于1的兑换率成为负值，小于1的兑换率成为正值。而我们前面的问题就转化为寻找一个negative weighted cycle的问题。
+//  问题： 给出一个多个Currency Exchange的表，比如USD，EUR，CHF，JPY，AUD，CAD之间的兑换率，求是否存在一个arbitrage的可能性，arbitrage即从一个currency出发，兑换其他货币，
+//        最后换回自己的货币可以得到更多的钱。
+// 算法首先要看出这是一个图论，各个currency可以看做节点（vertex），交换率可以看成从source currency节点到target currency的有向边（Edge）。这里关键是边的权值，为了方便后面的bellman ford算法，
+// 权值应为－log（rate）。这样所有大于1的兑换率成为负值，小于1的兑换率成为正值。而我们前面的问题就转化为寻找一个negative weighted cycle的问题。
 // 这个问题可以用标准的bellman ford求最短路径的算法实现。
 // Bellman－ford算法本身是动态规划的一种。
 //

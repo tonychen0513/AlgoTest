@@ -15,7 +15,8 @@ using namespace std;
 // 问题：现有一个数组，里面可能有重复，求里面出现次数超过input.size() / k的数。一般例子中，k为10
 // Algo：一种使用quickselect，也就是在FindKBigIn1UnsortedArray.cpp用过的算法，太麻烦。不清楚实现细节。
 //       另一种使用K－1的bucket的算法。这是一种基于Boyer-Moore的majority voting algorithm
-//       1. 遍历整个列表，首先看在buckets中有没有这个值，没有的话就填入，同时设count为1；有的话就把count加1；然后看buckets中key是否已经达到k，如已经达到，就对所有已有的key作count－1操作，如果count已经是1，则删除这个key。完成buckets
+//       1. 遍历整个列表，首先看在buckets中有没有这个值，没有的话就填入，同时设count为1；有的话就把count加1；然后看buckets中key是否已经达到k，如已经达到，就对所有已有的key作count－1操作，
+//          如果count已经是1，则删除这个key。完成buckets
 //       2. 完成buckets后，再扫描一遍buckets，其中的数如果count大于input.size()/K，就都是符合要求的数
 //
 //
