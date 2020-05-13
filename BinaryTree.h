@@ -10,7 +10,10 @@
 #define BinaryTree_h
 
 #include <vector>
+#include <memory>
 #include "CommonStructure.h"
+
+using namespace std;
 
 struct TreeNode
 {

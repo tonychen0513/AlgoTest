@@ -31,7 +31,8 @@ public:
     void release() {
         if (--count == 0) {
             delete theObject;
-            delete this;
+            theObject = nullptr;
+            //delete this;
         }
     }
     
@@ -57,22 +58,29 @@ public:
     }
     MySharedPtr(const MySharedPtr<T>& other) {
         // Should release the current count
-        theCount->release();
+        releaseRef();
         
         // Take the new count
         theCount = other.theCount;
         theCount->addRef();
     }
-    
-    MySharedPtr<T> operator=(const MySharedPtr<T>& other) {
+    MySharedPtr<T>& operator=(const MySharedPtr<T>& other) {
         // Should release the current count
-        theCount->release();
+        releaseRef();
         
         // Take the new count
         theCount = other.theCount;
         theCount->addRef();
         
         return *this;
+    }
+
+    void releaseRef() {
+        theCount->release();
+        if (theCount->useCount() == 0) {
+            delete theCount;
+            theCount = nullptr;
+        }
     }
     
     int useCount() {
@@ -83,8 +91,9 @@ public:
     }
     
     virtual ~MySharedPtr() {
-        if (theCount != nullptr)
-            theCount->release();
+        if (theCount != nullptr) {
+            releaseRef();
+        }
     }
     
     T* get() {
@@ -116,6 +125,7 @@ TEST(SharePointerSkelenton, NoData) {
     EXPECT_EQ(myPtr1->value, 1);
     EXPECT_EQ(myPtr1->message, "test1");
     
+    
     MySharedPtr<Sample> myPtr2(new Sample(2, "test2"));
     EXPECT_EQ(myPtr2.useCount(), 1);
     EXPECT_EQ(myPtr2->value, 2);
@@ -127,5 +137,4 @@ TEST(SharePointerSkelenton, NoData) {
     EXPECT_EQ(myPtr1->message, "test1");
     EXPECT_EQ(myPtr2->value, 1);
     EXPECT_EQ(myPtr2->message, "test1");
-    
 }

@@ -25,6 +25,6 @@ int main(int argc, const char * argv[]) {
     string s;
     MyStruct mystruct(s);
     
-    ::testing::InitGoogleMock( &argc, const_cast<char**>(argv) );
+    ::testing::InitGoogleTest( &argc, const_cast<char**>(argv) );
     return RUN_ALL_TESTS();
 }

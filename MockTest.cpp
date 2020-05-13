@@ -9,6 +9,8 @@
 #include <gtest/gtest.h>
 #include <gmock/gmock.h>
 
+#include <memory>
+
 using namespace std;
 using ::testing::_;
 using ::testing::Invoke;
@@ -172,7 +174,7 @@ public:
         return true;
     }
     
-    static unique_ptr<int> makeUniquePtrTest(string const& str) {
+    static unique_ptr<int> makeUniquePtrTest() {
         return unique_ptr<int>(new int(10));
     };
     
@@ -240,7 +242,7 @@ public:
     virtual int getPointerValue() = 0;
     virtual void saveArgTest(int num, string str) = 0;
     virtual bool setArgReferenceTest(int& num, string& str) = 0;
-    virtual unique_ptr<int> makeUniquePtrTest(string const& str) = 0;
+    virtual unique_ptr<int> makeUniquePtrTest() = 0;
     virtual void uniquePtrArgumentTest(unique_ptr<int> ptr) = 0;
 };
 
@@ -369,8 +371,8 @@ public:
         return FooHelper::setArgReferenceTest(num, str);
     }
     
-    unique_ptr<int> makeUniquePtrTest(string const& str) override {
-        return FooHelper::makeUniquePtrTest(str);
+    unique_ptr<int> makeUniquePtrTest() override {
+        return FooHelper::makeUniquePtrTest();
     }
     
     void uniquePtrArgumentTest(unique_ptr<int> ptr) override {
@@ -498,7 +500,11 @@ public:
     MOCK_METHOD0(getPointerValue, int());
     MOCK_METHOD2(saveArgTest, void(int, string));
     MOCK_METHOD2(setArgReferenceTest, bool(int&,string&));
-    MOCK_METHOD1(makeUniquePtrTest, std::unique_ptr<int>(string const&));
+    //MOCK_METHOD0(makeUniquePtrTest, std::unique_ptr<int>());
+
+    std::unique_ptr<int> makeUniquePtrTest() override {
+        return std::unique_ptr<int>();
+    }
     
     // 注意：由于可以mock的函数的argument都必须支持copiable，所以unique_ptr必须用这种方法mock。这种用一个一般方法代替然后去mock这个一般方法的delegate方法的做法是通用的。可用于destructor方法的mock
     void uniquePtrArgumentTest(unique_ptr<int> ptr) {
@@ -577,7 +583,7 @@ void coreFunction(IEnv& env) {
     cout << "IFooHelper: setArgReferenceTest arg1: " << tempNum << "; arg2: " << tempStr << endl;
     
     // 测试只可移动参数的mock，trick是建立一个一般的函数take 只可移动的参数，然后用转化出来的支持copy的参数来做mock函数的参数
-    unique_ptr<int> ptr = fooHelper.makeUniquePtrTest("test");
+    unique_ptr<int> ptr = fooHelper.makeUniquePtrTest();
     fooHelper.uniquePtrArgumentTest(std::move(ptr));
     
     // 测试从TEST函数中设置返回引用的mock函数的返回值
@@ -655,11 +661,14 @@ TEST(MockTest, NoData) {
     test1 = 44;
     
     
+    /*
     // Set the default value that should be returned for unique_ptr<int>
     // unique_ptr是moveable only的结构，必须用SetFactory
+    using ::testing::DefaultValue;
+
     DefaultValue<unique_ptr<int>>::SetFactory([]{ return unique_ptr<int>(new int(200)); });
     
-    EXPECT_CALL(helperMock, makeUniquePtrTest(_)).Times(AtLeast(1));
+    EXPECT_CALL(helperMock, makeUniquePtrTest()).Times(AtLeast(1));
     EXPECT_CALL(helperMock, doUniquePtrArgumentTest(_)).Times(AtLeast(1));
     
     
@@ -674,7 +683,9 @@ TEST(MockTest, NoData) {
     
     // unset unique_ptr<int>的返回值
     DefaultValue<unique_ptr<int>>::Clear();
+    */
     
+
     // 下面只是测试VerifyAndClearExpectation的用法，不必要
     ASSERT_TRUE(Mock::VerifyAndClearExpectations(&helperMock));     // 清除mock object的expect状态
     ASSERT_TRUE(Mock::VerifyAndClear(&helperMock));                 // 清除mock object的expect和on call设置的默认状态。

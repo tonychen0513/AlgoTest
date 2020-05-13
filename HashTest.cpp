@@ -12,7 +12,7 @@
 #include <string>
 #include <unordered_set>
 #include <gtest/gtest.h>
-#include <boost/functional/hash.hpp>
+//#include <boost/functional/hash.hpp>
 
 struct S {
     std::string first_name;
@@ -30,13 +30,13 @@ template<> struct MyHash<S>
 {
     std::size_t operator()(S const& s) const
     {
-        //std::size_t h1 = std::hash<std::string>()(s.first_name);
-        //std::size_t h2 = std::hash<std::string>()(s.last_name);
-        //return h1 ^ (h2 << 1); // or use boost::hash_combine
-        std::size_t seed = 0;
-        boost::hash_combine(seed, s.first_name);
-        boost::hash_combine(seed, s.last_name);
-        return seed;
+        std::size_t h1 = std::hash<std::string>()(s.first_name);
+        std::size_t h2 = std::hash<std::string>()(s.last_name);
+        return h1 ^ (h2 << 1); // or use boost::hash_combine
+        //std::size_t seed = 0;
+        //boost::hash_combine(seed, s.first_name);
+        //boost::hash_combine(seed, s.last_name);
+        //return seed;
     }
 };
 
@@ -47,13 +47,13 @@ namespace std
     {
         std::size_t operator()(const S& s) const
         {
-            //result_type const h1 ( std::hash<std::string>()(s.first_name) );
-            //result_type const h2 ( std::hash<std::string>()(s.last_name) );
-            //return h1 ^ (h2 << 1); // or use boost::hash_combine
-            std::size_t seed = 0;
-            boost::hash_combine(seed, s.first_name);
-            boost::hash_combine(seed, s.last_name);
-            return seed;
+            std::size_t const h1 ( std::hash<std::string>()(s.first_name) );
+            std::size_t const h2 ( std::hash<std::string>()(s.last_name) );
+            return h1 ^ (h2 << 1); // or use boost::hash_combine
+            //std::size_t seed = 0;
+            //boost::hash_combine(seed, s.first_name);
+            //boost::hash_combine(seed, s.last_name);
+            //return seed;
         }
     };
 }

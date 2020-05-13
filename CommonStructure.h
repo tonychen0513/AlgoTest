@@ -9,7 +9,7 @@
 #ifndef CommonStructure_h
 #define CommonStructure_h
 
-
+#include <cstddef>
 
 
 struct Node

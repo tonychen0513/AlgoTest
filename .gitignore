@@ -1,2 +1,5 @@
-Build\
-DerivedData\
+CMakeCache.txt
+cmake_install.cmake
+CMakeFiles/**
+Makefile
+runTests
